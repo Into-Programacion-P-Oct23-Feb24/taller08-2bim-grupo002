@@ -1,20 +1,20 @@
-/*
- * Click nbfs://nbhost/SystemFileSystem/Templates/Licenses/license-default.txt to change this license
- * Click nbfs://nbhost/SystemFileSystem/Templates/Classes/Main.java to edit this template
- */
 package problema03;
 
-/**
- *
- * @author LAB.ELECT
- */
 public class Problema03 {
 
-    /**
-     * @param args the command line arguments
-     */
     public static void main(String[] args) {
-        // TODO code application logic here
+        double gradosc;
+        double gradosf = 20;
+        String cadena = "";
+        int i;
+        // declaramos las variables que usaremos
+        for (i = 0; i < 20; i++){
+                gradosc = (gradosf-32)* 5/9;
+                cadena = String.format("%s%s = %.2f\n", cadena, gradosf, gradosc);
+                gradosf += 4;
+                // gradosf ira cada vez aumentando 4 valores por cada que pase por el ciclo
+        }
+        System.out.printf("%s", cadena);
     }
     
 }
