@@ -10,7 +10,8 @@ public class Problema03 {
         // declaramos las variables que usaremos
         for (i = 0; i < 20; i++){
                 gradosc = (gradosf-32)* 5/9;
-                cadena = String.format("%s%s = %.2f\n", cadena, gradosf, gradosc);
+                cadena = String.format("%s%s = %.2f\n", cadena, 
+                        gradosf, gradosc);
                 gradosf += 4;
                 // gradosf ira cada vez aumentando 4 valores por cada que pase por el ciclo
         }
