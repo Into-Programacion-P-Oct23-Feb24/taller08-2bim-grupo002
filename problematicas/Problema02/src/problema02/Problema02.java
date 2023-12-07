@@ -17,8 +17,16 @@ public class Problema02 {
         // TODO code application logic here
         int contador = 10;
         for (int numero = 30; numero >= contador; numero--) {
+            /* el valor de numero se inicializa en 30 y el ciclo repetitivo
+            se repite mientras que el valor de numero sea mayor o igual que 
+            contador, en donde tambien en el ciclo va a disminuir en 1 el valor
+            de numero
+            */
             System.out.printf("%d-%d-%d-%d\n",numero,numero*2,numero*3,
             numero*4);
+            /*
+            el valor de numero cada vez se multiplica por 2,3,4
+            */
         } 
     }
     

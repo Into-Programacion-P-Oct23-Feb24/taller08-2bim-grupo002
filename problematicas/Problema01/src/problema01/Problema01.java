@@ -38,6 +38,10 @@ public class Problema01 {
         entrada.nextLine();
 
         for (int i = 0; i < limite; i++) {
+            /* el valor de i se inicializa en 0 y mientras que el valor de i
+            // sea menor a limite se sigue en pie el ciclo y cada vez va a ir
+            aumentando en 1 el valor de 1
+            */ 
             System.out.println("Ingrese el nombre de Jugador: ");
             nombre = entrada.nextLine();
             System.out.println("Ingrese la posición en el campo que ocupa: ");
